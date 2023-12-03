@@ -1,16 +1,20 @@
-import { Component } from '@angular/core';
-import * as CryptoJS from 'crypto-js';
+import { Component, NgModule } from '@angular/core';
+import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+
 
 @Component({
  selector: 'app-root',
  templateUrl: './app.component.html',
  styleUrls: ['./app.component.css']
 })
-export class AppComponent {
- title = 'frontend';
 
- calculateSHA256Hash(message: string): string {
-    const hash = CryptoJS.SHA256(message);
-    return hash.toString(CryptoJS.enc.Hex);
- }
+@Component({
+    selector:'app-login',
+    templateUrl: './login.component.html',
+    styleUrls: ['./login.componenet.css']
+})
+
+export class AppComponent {
+ title = 'Degenerate Doggos';
 }
