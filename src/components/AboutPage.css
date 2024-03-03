@@ -1,0 +1,25 @@
+/* AboutPage.css */
+.about-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-page h1 {
+    text-align: center;
+    color: #34568B; /* Navy Blue */
+  }
+  
+  .about-page section {
+    margin-top: 30px;
+  }
+  
+  .about-page h2 {
+    color: #FF6F61; /* Light Red */
+  }
+  
+  .about-page p {
+    text-align: justify;
+    line-height: 1.6;
+  }
+  

@@ -1,0 +1,30 @@
+/* HomePage.css */
+.home-page {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .home-page .hero-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f2f2f2;
+  }
+  
+  .home-page h1 {
+    color: #6b5b95; /* Dark Lavender */
+  }
+  
+  .home-page h2 {
+    color: #ff7b25; /* Bright Orange */
+  }
+  
+  .home-page section {
+    margin-top: 30px;
+  }
+  
+  .home-page p {
+    text-align: justify;
+    line-height: 1.6;
+  }
+  

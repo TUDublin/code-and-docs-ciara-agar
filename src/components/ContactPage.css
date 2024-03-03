@@ -1,0 +1,47 @@
+/* ContactPage.css */
+.contact-us-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-us-page h1 {
+    color: #34568B; /* Navy Blue */
+  }
+  
+  .contact-us-page .contact-form {
+    margin-top: 30px;
+  }
+  
+  .contact-us-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-us-page form label {
+    margin-top: 10px;
+  }
+  
+  .contact-us-page form input,
+  .contact-us-page form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .contact-us-page form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6f61; /* Light Red */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-us-page .additional-info {
+    margin-top: 40px;
+    text-align: left;
+  }
+  
